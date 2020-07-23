@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CICDDockerBuildDemo", "CICDDockerBuildDemo\CICDDockerBuildDemo.csproj", "{5229C011-3D23-4D70-9CB0-D3BC253DD52D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CICDDockerBuildDemo.Tests.Unit", "CICDDockerBuildDemo.Tests.Unit\CICDDockerBuildDemo.Tests.Unit.csproj", "{BC26B232-6087-4392-B4F3-DDC1D8482FAC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5229C011-3D23-4D70-9CB0-D3BC253DD52D} = {5229C011-3D23-4D70-9CB0-D3BC253DD52D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5229C011-3D23-4D70-9CB0-D3BC253DD52D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5229C011-3D23-4D70-9CB0-D3BC253DD52D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5229C011-3D23-4D70-9CB0-D3BC253DD52D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5229C011-3D23-4D70-9CB0-D3BC253DD52D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC26B232-6087-4392-B4F3-DDC1D8482FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC26B232-6087-4392-B4F3-DDC1D8482FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC26B232-6087-4392-B4F3-DDC1D8482FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC26B232-6087-4392-B4F3-DDC1D8482FAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDE11E61-16BD-4D5B-86BA-335F2004B999}
+	EndGlobalSection
+EndGlobal
