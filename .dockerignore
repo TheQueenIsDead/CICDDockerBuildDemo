@@ -1,0 +1,3 @@
+cicd.sh
+build_results/
+docker-compose.yml

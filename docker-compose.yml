@@ -1,0 +1,8 @@
+version: '3.3'
+
+services:
+
+  sonarqube:
+    image: sonarqube:7.9.3-community
+    ports:
+      - 127.0.0.1:9000:9000
